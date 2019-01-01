@@ -54,3 +54,28 @@ experimenting with container based apps
 **lightweight and minimal overhead:** Docker images are very small, which facilitates rapid delivery and reduce the time to deploy new application containers
 
 **Simplified maintenance:**  Docker reduces effort and risk of problems with application dependencies.
+
+## VMS vs Docker
+
+![VMS vs Docker](https://github.com/javahometech/Docker/blob/master/images/vmdocker.jpg "vmdocker")
+
+**VM:** A virtual machine (VM) is a software program or operating system that not only exhibits the behavior of a separate computer, but is also capable of performing tasks such as running applications and programs like a separate computer
+
+- Every VM has its own OS, That consumes lot of resources
+- VM takes minutes to start
+- Applications on VMs are not portable
+- It allocates required memory and Heavyweight
+- It is Fully isolated and Hence more secured
+
+**Docker container:** Docker container is a runtime of Docker image. With containers, instead of virtulizing the underlaying computers like a virtual machine(VM), just the OS is virtualized
+
+Containers sit on top of a physical server and its host OS — typically Linux or Windows. Each container shares the host OS kernel and, usually, the binaries and libraries, too.
+
+-	Containers will not have its own OS, It consumes very less compute resources.
+- containers start time within seconds.
+-	Applications deploy on container are highly portable your application and its dependencies are bundled together when you move to different server it will definitely works
+-	Application running on docker performs better than application on VM
+- Containers are process-level isolation and less secured compared to VM
+
+
+### Architecture of Docker
