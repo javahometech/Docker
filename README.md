@@ -43,17 +43,17 @@ experimenting with container based apps
 **Enterprise Edition:** It is for enterprise development and IT teams who build, ship and run bussiness critical applications in productions
 
 #### What are the benefits of Docker?
-**Rapid application deployment:** containers include the minimal runtime requirements of the application, reducing their size and allowing them to be deployed quickly
+- **Rapid application deployment:** containers include the minimal runtime requirements of the application, reducing their size and allowing them to be deployed quickly
 
-**Portability:** an application and all its dependencies can be bundled into a single container that is independent from the host version of Linux kernel, platform distribution This container can be transferred to another machine that runs **Docker**, and executed there without compatibility issues
+- **Portability:** an application and all its dependencies can be bundled into a single container that is independent from the host version of Linux kernel, platform distribution This container can be transferred to another machine that runs **Docker**, and executed there without compatibility issues
 
-**Version and Component reuse:**  you can track successive versions of a container, inspect differences, or roll-back to previous versions. Containers reuse components from the preceding layers, which makes them noticeably lightweight
+- **Version and Component reuse:**  you can track successive versions of a container, inspect differences, or roll-back to previous versions. Containers reuse components from the preceding layers, which makes them noticeably lightweight
 
-**Sharing:** you can use a remote repository to share your images with others. it is also possible to configure your own private repository.
+- **Sharing:** you can use a remote repository to share your images with others. it is also possible to configure your own private repository.
 
-**lightweight and minimal overhead:** Docker images are very small, which facilitates rapid delivery and reduce the time to deploy new application containers
+- **lightweight and minimal overhead:** Docker images are very small, which facilitates rapid delivery and reduce the time to deploy new application containers
 
-**Simplified maintenance:**  Docker reduces effort and risk of problems with application dependencies.
+- **Simplified maintenance:**  Docker reduces effort and risk of problems with application dependencies.
 
 ## VMS vs Docker
 
@@ -88,10 +88,16 @@ Docker uses a client-server architecture. The Docker client talks to the Docker 
 The **Docker daemon** (**dockerd**) listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. A daemon can also communicate with other daemons to manage Docker services
 
 ### The Docker client
-The **Docker client** (**docker**) is the primary way that many Docker users interact with Docker. When you use commands such as **docker run**, the client sends these commands to **dockerd**, which carries them out. The docker command uses the **Docker** API. The Docker client can communicate with more than one daemon.
+The **Docker client** (**docker**) is the primary way that many Docker users interact with Docker. When you use commands such as **docker run**, the client sends these commands to **dockerd**. The docker command uses the **Docker** API. The Docker client can communicate with more than one daemon.
 
+### Docker Host
+The host on which Docker is installed and daemon is running, receives commands from docker client and behave accordingly.
+Docker host can be a local host or it also can be remote docker host.
+Command to set remote host to run Docker commands()
 ### Docker registries
 - A Docker registry is stores docker images. Docker maintain a public registry called Docker Hub that anybody can use
 - By default docker looks for images in Docker Hub
 - You also create your own private registry
 - If you use Docker Datacenter(DDC), it includes Docker Trusted registry(DTR)
+
+### Docker Objects
