@@ -5,7 +5,7 @@
 
 ### Monolithic Application Diagram
 <img src="../images/Monolithic.png" width=640>
-![Monolithic Application](../images/Monolithic.png)
+![Monolithic Application](https://github.com/javahometech/Docker/blob/master/images/Monolithic.png)
 
 #### Drawbacks of Monolithic Application
 - Here we wanna do any operation like search we have to run all the application so the performance of monolithic application is low
