@@ -18,3 +18,24 @@ other. The communication can involve either simple data passing or it could invo
 - Monolithic Application is divided into multiple projects
 - Every application project can have its own application stack
 - The services communicate using webservices (RESTful/SOAP)
+
+### Microservice Architecture:
+-	It is fine grained version of SOA
+- Every microservice must be small enough such that it should be handled by 2 developers
+- It's drastically improve the developers productivity
+- you can use different technologies in different microservices
+- we can scale a specfic service
+- If a specfic service is down, Even though customers can use other services, It not make your whole application down
+- The challenges with microservice is we get too many services to deploy and maintain
+
+## Docker
+#### What is Docker?
+- Docker is tool to create, deploy and run applications by using containers
+- Here the application is packaged with all the libraries and other dependencies which are rquired to run application
+#### Different types of Docker
+Docker is available in two editions:
+- Community Edition(CE)
+- Enterprise Edition(EE)
+**Community Edition:** It is for individual developers and small teams looking to get started with docker and
+experimenting with container based apps
+**Enterprise Edition:** It is for enterprise development and IT teams who build, ship and run bussiness critical applications in productions
