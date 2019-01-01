@@ -2,8 +2,6 @@
 ## Before docker
 ## Monolithic Application
  Monolithic Application describes single tired application. Here all the functionalities like user-interface, code and data access are combined into a single program from a single platform.
-
-### Monolithic Application Diagram
 ![Monolithic Architecture](https://github.com/javahometech/Docker/blob/master/images/Monolithic.png "Monolithic")
 #### Drawbacks of Monolithic Application
 - Here we wanna do any operation like search we have to run all the application so the performance of monolithic application is low
