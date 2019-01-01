@@ -36,8 +36,6 @@ other. The communication can involve either simple data passing or it could invo
 Docker is available in two editions:
 - Community Edition(CE)
 - Enterprise Edition(EE)
-
 **Community Edition:** It is for individual developers and small teams looking to get started with docker and
 experimenting with container based apps
-
 **Enterprise Edition:** It is for enterprise development and IT teams who build, ship and run bussiness critical applications in productions
