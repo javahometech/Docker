@@ -36,6 +36,21 @@ other. The communication can involve either simple data passing or it could invo
 Docker is available in two editions:
 - Community Edition(CE)
 - Enterprise Edition(EE)
+
 **Community Edition:** It is for individual developers and small teams looking to get started with docker and
 experimenting with container based apps
+
 **Enterprise Edition:** It is for enterprise development and IT teams who build, ship and run bussiness critical applications in productions
+
+#### What are the benefits of Docker?
+**Rapid application deployment:** containers include the minimal runtime requirements of the application, reducing their size and allowing them to be deployed quickly
+
+**Portability:** an application and all its dependencies can be bundled into a single container that is independent from the host version of Linux kernel, platform distribution This container can be transferred to another machine that runs **Docker**, and executed there without compatibility issues
+
+**Version and Component reuse:**  you can track successive versions of a container, inspect differences, or roll-back to previous versions. Containers reuse components from the preceding layers, which makes them noticeably lightweight
+
+**Sharing:** you can use a remote repository to share your images with others. it is also possible to configure your own private repository.
+
+**lightweight and minimal overhead:** Docker images are very small, which facilitates rapid delivery and reduce the time to deploy new application containers
+
+**Simplified maintenance:**  Docker reduces effort and risk of problems with application dependencies.
