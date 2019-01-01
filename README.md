@@ -4,7 +4,7 @@
  Monolithic Application describes single tired application. Here all the functionalities like user-interface, code and data access are combined into a single program from a single platform.
 
 ### Monolithic Application Diagram
-<img src="../images/Monolithic Application.png" width=640>
+<img src="../images/Monolithic.png" width=640>
 
 #### Drawbacks of Monolithic Application
 - Here we wanna do any operation like search we have to run all the application so the performance of monolithic application is low
